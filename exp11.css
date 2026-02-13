@@ -1,0 +1,124 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background: white;
+    font-family: "Times New Roman", Times, serif;
+    color: black;
+}
+
+.container {
+    width: 820px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Alignment */
+.center {
+    text-align: center;
+}
+
+/* Text styles */
+.bold {
+    font-weight: bold;
+}
+
+.title {
+    font-size: 26px;
+}
+
+.subtitle {
+    font-size: 18px;
+    margin-top: 4px;
+}
+
+.section-heading {
+    font-size: 24px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    color: cornflowerblue;
+}
+
+/* Lines */
+.thick-line {
+    border: none;
+    border-top: 2px solid black;
+    margin: 12px 0;
+}
+
+.thin-line {
+    border: none;
+    border-top: 1px solid black;
+    margin: 10px 0;
+}
+
+/* Profile */
+.profile {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.photo-box {
+    width: 120px;
+    height: 120px;
+    border: 5px solid cornflowerblue;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.photo-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+
+/* Table */
+.info-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 8px;
+    font-size: 15px;
+}
+
+.info-table td {
+    border: 1px solid black;
+    padding: 6px 8px;
+}
+
+.info-table td:first-child {
+    width: 35%;
+    font-weight: bold;
+}
+
+/* Lists */
+ul, ol {
+    margin-top: 5px;
+    margin-left: 22px;
+    font-size: 15px;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 25px;
+}
+.pdetails {
+    margin-left: 25px;
+    font-size: 15px;
+}
+
+.pdetails div {
+    margin-bottom: 6px;
+}
+.line{
+    margin-left: 150px;
+    margin-right: 150px;
+    border-top: 5px solid cornflowerblue;
+
+}
